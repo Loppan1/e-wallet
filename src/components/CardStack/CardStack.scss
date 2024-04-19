@@ -1,0 +1,13 @@
+.card-stack {
+  flex: 1; /* Grow to fill available space */
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    margin-top: 40px;
+
+    &:not(:first-child) {
+      margin-top: -200px; /* Apply negative margin to all cards except the first one */
+    }
+  }
+}

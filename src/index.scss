@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Source+Sans+3:ital,wght@0,700;1,700&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 35px;
+}
+
+h2 {
+    font-family: 'PT Mono';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 32.48px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'PT Mono';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: left;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'PT Mono';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.44px;
+    text-align: left;
+    margin: 0 0 4px 0;
+}
+
+p {
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 0;
+  font-size: 12px;
+}
+
+
+input, select {
+    font-family: 'PT Mono';
+    font-size: 18px;
+    padding: 6px;
+    width: calc(100% - 14px);
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+}
+
+label {
+    font-family: 'PT Mono';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.44px;
+    text-align: left;
+    margin: 24px 0 2px 0;
+}
+
+
+button {
+    font-family: 'PT Mono';
+    width: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.64px;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    box-sizing: border-box; 
+    margin-top: 40px;
+}
